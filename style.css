@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@300;600;800&family=Open+Sans:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+body {
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+header{
+    width: 80%;
+    margin-top: 19px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    cursor: pointer;
+}
+nav div span{
+    cursor: pointer;
+}
+nav div span:hover{
+    color: #f0b016;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+ul li{
+    margin-right:  2.8125rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #f0b016;
+}
+.circle-caroussel{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+.accueil-content{
+    background-image: url('images/hero-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-feane{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+.accueil-carroussel{
+    width: 71%;
+    position: relative;
+    left: 50%;
+    top: 96%;
+    transform: translate(-71%, -140%);
+}
+.accueil-carroussel h1{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.accueil-carroussel p{
+    width: 47%;
+    font-size: 13px;
+}
+.button--orange{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 35px;
+    background-color: #f0b016;
+    border: 0px transparent;
+    color: white;
+}
+.icon-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-button span{
+    margin-right: 10px;
+}
+.navigation-point{
+    display: flex;
+    margin-top: 115px;
+}
+.navigation-point .circle-caroussel{
+    margin-right: 8px;
+}
+.active{
+    color: #f0b016;
+}
+.title1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 27px;
+}
+.title2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-picture{
+    width: 165px;
+    height: 165px;
+    border-radius: 100%;
+    border: 4px solid #f0b016;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-reduce{
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+.img-description{
+    margin-left: 19px;
+    color: white;
+}
+.bg-violet{
+    background-color: #191d20;
+    width: 40%;
+    justify-content: center;
+    border-radius: 9px;
+    padding: 14px;
+}
+.mg-top{
+    margin-top: 60px;
+}
+.dis-flex .elemetMenu{
+    margin-right: 30px;
+}
+.menuChoice{
+    background-color: #191d20;
+    color: white;
+    padding: 7px;
+    width: 75px;
+    border-radius: 30px;
+    text-align: center;
+}
+.title1OurMenu{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.cardPlat{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 20px;
+    background-color: #191d20;
+    width: 80%;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.shoppingCharet{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background-color: #f0b016;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pictureCard{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #d4d4d4;
+    text-align: center;
+}
+
+.pictureCard img{
+    width: 165px;
+    height: 165px;
+    
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    justify-items: center;
+    margin-top: 32px;
+}
+.descriptionCard{
+    padding: 12px;
+}
